@@ -1,0 +1,149 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 244, 248);
+  color: black;
+}
+
+header {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+section {
+  padding: 25px;
+  margin: 20px;
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(20, 30, 50);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Class selectors */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.welcome-section {
+  background-color: rgba(0, 100, 255, 0.1);
+}
+
+.course-list {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* ID selector */
+#registration {
+  border: 1px solid rgb(180, 180, 180);
+}
+
+/* Grouping selector */
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/* Descendant selector */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Child selector */
+.course-list > li {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Adjacent sibling selector */
+.welcome-section h2 + p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Attribute selector */
+input[type="email"] {
+  border: 2px solid rgb(100, 149, 237);
+}
+
+/* Hover pseudo-class */
+nav a:hover {
+  color: yellow;
+}
+
+button:hover {
+  background-color: rgb(0, 80, 180);
+}
+
+/* Focus pseudo-class */
+input:focus,
+select:focus {
+  border-color: blue;
+  outline: none;
+}
+
+/* First-child pseudo-class */
+.course-list li:first-child {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: green;
+}
+
+/* Last-child pseudo-class */
+.course-list li:last-child {
+  background-color: rgba(255, 165, 0, 0.2);
+  color: darkorange;
+}
+
+/* Placeholder pseudo-element */
+input::placeholder {
+  color: rgb(130, 130, 130);
+}
+
+/* First-line pseudo-element */
+.welcome-section p::first-line {
+  color: rgb(0, 70, 150);
+  font-weight: bold;
+}
+
+/* More form styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(150, 150, 150);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>column grid</title>
+</head>
+<body class="flex justify-center items-center min-h-screen font-['Segoe UI', Tahoma, Geneva, Verdana, sans-serif] text-base">
+    <main class="bg-red-400 mx-auto w-full max-w-sm rounded-lg grid grid-cols-1 gap-4 p-4
+    sm:max-w-lg sm:grid-cols-2 sm:p-6 sm:bg-blue-400 
+    lg:max-w-xl lg:grid-cols-3 lg:p-8 lg:bg-yellow-300">
+        <div class="bg-white w-full h-32 rounded-lg p-4 sm:col-span-2 lg:h-48">Box-One</div>
+        <div class="bg-white w-full h-32 rounded-lg p-4 lg:h-48">Box-Two</div>
+        <div class="bg-white w-full h-32 rounded-lg p-4 lg:h-48">Box-Three</div>
+        <div class="bg-white w-full h-32 rounded-lg p-4 sm:col-span-2 lg:h-48">Box-Four</div>
+    </main>
+</body>
+</html>

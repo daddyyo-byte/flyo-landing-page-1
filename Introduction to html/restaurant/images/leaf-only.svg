@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title" fill="none">
+  <title id="title">Terracotta leafy sprig</title>
+  <g stroke="#C96D4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 43c2-14 8-27 20-38"/>
+    <path d="M16 33c-7 0-12-3-15-8 7-1 13 1 17 5Z" fill="#C96D4B"/>
+    <path d="M21 23c-5-2-8-6-9-11 6 1 10 4 12 8Z" fill="#C96D4B"/>
+    <path d="M21 29c7-1 12 1 16 5-6 3-12 1-17-2Z" fill="#C96D4B"/>
+    <path d="M26 18c5-1 10 0 13 4-5 3-10 2-14-1Z" fill="#C96D4B"/>
+    <path d="M31 10c2-5 6-8 11-9 0 6-3 10-8 12Z" fill="#C96D4B"/>
+  </g>
+</svg>

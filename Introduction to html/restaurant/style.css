@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  background-color: #f8f4ec;
+  color: #242524;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  padding: 7px 10px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: #242524;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cc7d64;
+  border-bottom: 2px solid #cc7d64;
+  padding-bottom: 10px;
+}
+
+header button {
+  background-color: #c1512f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc7d64;
+}
+
+header button a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  margin: 10px 0;
+  padding: 0px 10px;
+  width: fit-content;
+}
+
+.container .text-wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text-wrapper .hr {
+  width: 100px;
+  height: 2px;
+  background-color: #c1512f;
+  margin: 10px 0 20px 0;
+}
+
+.text-wrapper p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.text-wrapper button {
+  background-color: #c1512f;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container img {
+  width: 50%;
+}
+
+.container2 {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px 0px;
+}
+
+.container2 .hr {
+  width: 100px;
+  height: 2px;
+  background-color: #c1512f;
+  margin: 10px auto 20px auto;
+}
+
+.container2 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container2 .services {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.services .service-wrapper .service {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #1b3226;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-wrapper p {
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.services .service img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-wrapper video {
+  width: 800px;
+  border-radius: 5px;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+}
+
+table thead {
+  background-color: #1b3126;
+  color: white;
+  border: none;
+}
+
+thead tr th {
+  font-size: 12px;
+  padding: 10px;
+}
+
+tbody,
+tfoot tr td {
+  text-align: center;
+  padding: 1px;
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b3126;
+  gap: 150px;
+  color: white;
+  margin: 0;
+}
+
+footer .side1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .side1 p {
+  width: 150px;
+  font-size: 12px;
+}
+
+footer .mr {
+  border-right: 1px solid white;
+  height: 100px;
+}
+
+.side2 .sub-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.side2 .sub-side p {
+  font-size: 12px;
+}
+
+.side2 .sub-side img {
+  width: 20px;
+}
+
+.side3 .img img {
+  width: 20px;
+}
+
+.side3 p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* //gallery styling */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 30px;
+}
+
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: #242524;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cc7d64;
+  border-bottom: 2px solid #cc7d64;
+  padding-bottom: 10px;
+}
+
+.header button {
+  background-color: #c1512f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #cc7d64;
+}
+
+.gallery-container {
+  border-top: 1px solid #eee1d1;
+}
+
+.gallery-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.gallery-text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.gallery-container .hr {
+  width: 100px;
+  height: 2px;
+  background-color: #c1512f;
+  margin: 5px auto 20px auto;
+}
+
+.gallery-container .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-wrapper {
+  padding: 10px 0;
+}
+
+.image-wrapper p {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
+}
+
+.image-wrapper img {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.reservation {
+  border: 1px solid #e7bfa8;
+  padding: 20px 0;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.reservation h3 {
+  text-align: center;
+  font-size: 27px;
+  font-family: "Playfair Display", serif;
+}
+
+.reservation .button-wrapper {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button-wrapper button {
+  background-color: #c1512f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* reservation  styling */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+.header-container .header-wrapper p {
+  font-size: 8px;
+  color: #c1512f;
+}
+
+.header-container .header-wrapper h1{
+    font-size: 28px;
+    color: #1b3126;
+}
+
+.header-container img {
+  width: 30px;
+}

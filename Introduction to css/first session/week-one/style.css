@@ -1,0 +1,13 @@
+header h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header p {
+    color: #006300;
+    font-size: 18px;
+    text-align: center;
+
+}

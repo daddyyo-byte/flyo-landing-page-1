@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Message</title>
+  </head>
+  <body>
+    <a href="index4.html" target="_blank">Homepage</a>
+
+    <h1>Event Registration Form</h1>
+
+    <div class="form-submission">
+      <form>
+        <label for="fullName">Enter Your Full Name</label>
+        <div class="input-wrapper">
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Enter your full-name..."
+            required
+            minlength="3"
+            maxlength="20"
+          />
+        </div>
+
+        <label for="email">Enter Your Email Address</label>
+        <div class="input-wrapper">
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="enter your email..."
+          />
+        </div>
+
+        <label for="phoneNo">Telephone number:</label>
+        <div class="input-wrapper">
+          <input type="tel" id="phoneNo" name="phone" pattern="[0-9]{11}" placeholder="input phoneNo..."/>
+        </div>
+
+        <label for="dob">Date Of Birth:</label>
+        <div class="input-wrapper">
+          <input type="date" id="dob" name="date" />
+        </div>
+
+        <label for="eventDate">Preferred Event Date:</label>
+        <div class="input-wrapper">
+          <input type="date" id="eventDate" name="eventDate" required />
+        </div>
+
+        <label for="ticket">Ticket Type</label>
+        <select name="ticket" id="ticket" required>
+          <option value="sel">--- select ticket---</option>
+          <option value="vip">VIP</option>
+          <option value="premium">Premium</option>
+          <option value="regular">Regular</option>
+        </select>
+
+        <div class="radio-wrapper">
+          <label for="attendance">Attendance Method:</label>
+
+          <label for="physical">Physical</label>
+          <input type="radio" id="physical" name="attendance" required />
+
+          <label for="virtual">Virtual</label>
+          <input type="radio" id="virtual" name="attendance" required />
+        </div>
+
+        <label for="interest">Area of interest</label>
+
+        <div class="checkbox-wrapper">
+          <input
+            type="checkbox"
+            id="technology"
+            name="interest"
+            value="technology"
+          />
+          <label for="technology">Technology</label>
+          <input
+            type="checkbox"
+            id="business"
+            name="interest"
+            value="business"
+          />
+          <label for="business">Business</label>
+          <input
+            type="checkbox"
+            id="networking"
+            name="interest"
+            value="networking"
+          />
+          <label for="networking">Networking</label>
+        </div>
+
+        <textarea
+          name="message"
+          id="message"
+          rows="6"
+          cols="40"
+          minlength="10"
+          maxlength="200"
+        ></textarea>
+
+        <div class="button-wrapper">
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
